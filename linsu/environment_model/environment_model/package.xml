@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>environment_model</name>
+  <version>0.0.0</version>
+  <description>The decision_node package</description>
+
+  <maintainer email="jiangzhen02@saicmotor.com">Zhen Jiang</maintainer>
+  <maintainer email="wangxiaolong02@saicmotor.com">Xiaolong Wang</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>situation_analysis_algo</depend>
+  <depend>per_fusion_msgs</depend>
+  <depend>em_msgs</depend>
+  <depend>prediction_msgs</depend>
+  <depend>situation_analysis_msgs</depend>
+  <depend>ego_motion_msgs</depend>
+  <depend>vehicle_abstraction_msgs</depend>
+  <depend>fct_msgs</depend>
+  <depend>avp_msgs</depend>
+  <depend>app_msgs</depend>
+  <depend>ipc_msgs</depend>
+  <depend>icm_msgs</depend>
+  <depend>vr_msgs</depend>
+  <depend>hd_map_ehr_msgs</depend>
+  <depend>gnss_imu_msgs</depend>
+  <depend>converter</depend>
+  <depend>base_node</depend>
+  <depend>time_ros</depend>
+  <depend>common</depend>
+  <depend>time_coherent_cache</depend>
+  <depend>math</depend>
+  <depend>geographic_transform</depend>
+
+  
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
