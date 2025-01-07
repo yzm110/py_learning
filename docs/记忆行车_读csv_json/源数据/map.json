@@ -1,0 +1,94 @@
+[
+    {
+        "IsStopLine": true,
+        "LineDatasValidNum": 2,
+        "IsTrafficLight": true,
+        "TrajValidNum": 2,
+        "LinkId": 12,
+        "PosTime": 1617181820,
+        "LaneDatas": [
+            {
+                "ArrowType": 1,
+                "LaneType": 2,
+                "LineValidNum": 2,
+                "MappingId": 789012,
+                "LineDatas": [
+                    {
+                        "LineType": 1,
+                        "Color": 2,
+                        "PositionID": 345678,
+                        "X": 100.0,
+                        "Y": 180.0
+                    },
+                    {
+                        "LineType": 2,
+                        "Color": 2,
+                        "PositionID": 456789,
+                        "X": 100.0,
+                        "Y": 182.0
+                    }
+                ]
+            }
+        ],
+        "TrajHistory": {
+            "Positions": [
+                {
+                    "PositionID": 345678,
+                    "PosLat": 34.5678,
+                    "PosLgt": 123.4567
+                },
+                {
+                    "PositionID": 456789,
+                    "PosLat": 35.6789,
+                    "PosLgt": 124.5678
+                }
+            ]
+        }
+    },
+    {
+        "IsStopLine": true,
+        "LineDatasValidNum": 2,
+        "IsTrafficLight": false,
+        "TrajValidNum": 2,
+        "LinkId": 222,
+        "PosTime": 1617181921,
+        "LaneDatas": [
+            {
+                "ArrowType": 1,
+                "LaneType": 2,
+                "LineValidNum": 3,
+                "MappingId": 789012,
+                "LineDatas": [
+                    {
+                        "LineType": 1,
+                        "Color": 2,
+                        "PositionID": 345678,
+                        "X": 100.0,
+                        "Y": 202.0
+                    },
+                    {
+                        "LineType": 2,
+                        "Color": 2,
+                        "PositionID": 456789,
+                        "X": 100.0,
+                        "Y": 204.0
+                    }
+                ]
+            }
+        ],
+        "TrajHistory": {
+            "Positions": [
+                {
+                    "PositionID": 345678,
+                    "PosLat": 34.5678,
+                    "PosLgt": 123.4567
+                },
+                {
+                    "PositionID": 456789,
+                    "PosLat": 35.6789,
+                    "PosLgt": 124.5678
+                }
+            ]
+        }
+    }
+]
